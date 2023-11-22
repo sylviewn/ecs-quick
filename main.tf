@@ -20,7 +20,7 @@ resource "aws_ecs_task_definition" "my_task_definition" {
 [
   {
     "name": "my-container",
-    "image": "429718069504.dkr.ecr.us-east-1.amazonaws.com/ibt-repo",  
+    "image": "sylviewette/amazon:2",  
     "portMappings": [
       {
         "containerPort": 80,
